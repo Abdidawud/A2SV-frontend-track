@@ -1,0 +1,47 @@
+.task-container {
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid #8b8c94;
+    border-radius: 10px;  /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /* Subtle shadow */
+    padding: 10px;  /* Add some padding */
+    background-color: #f9f9f9;  /* Light background color */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;  /* Smooth transition */
+    margin-top: 10px;
+}
+
+.task-container:hover {
+    transform: scale(1.05);  /* Make the container bigger on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);  /* Enhance shadow on hover */
+}
+
+.icons-container {
+    display: flex;
+}
+
+.delete-icon {
+    margin-left: auto;
+    color: red;
+    font-size: 120%;
+    cursor: pointer;
+    margin-left: 10px;  /* Add some space between icons */
+}
+
+.edit-icon {
+    color: rgb(27, 16, 182);
+    font-size: 120%;
+    cursor: pointer;
+}
+
+.task-item {
+    flex-grow: 1;
+    align-self: center;  /* Align task item vertically in the center */
+}
+
+
+.update-input{
+    transform: scale(2);
+    margin-left: 50px;
+  }
+  
