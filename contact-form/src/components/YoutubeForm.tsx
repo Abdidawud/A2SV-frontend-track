@@ -46,6 +46,7 @@ const YoutubeForm = () => {
                   "This email is restricted"
                 );
               },
+              required: { value: true, message: "email  is required" },
             })}
           />
           <p className="error">{errors.email?.message}</p>
@@ -57,7 +58,7 @@ const YoutubeForm = () => {
             type="text"
             id="channel"
             {...register("channel", {
-              required: { value: true, message: "Channel is required" },
+              required: { value: true, message: "Message is required" },
             })}
           />
           <p className="error">{errors.channel?.message}</p>
