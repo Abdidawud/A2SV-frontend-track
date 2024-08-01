@@ -1,0 +1,15 @@
+/* src/index.css */
+.nunitoSansExample {
+  font-family: "Nunito Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400; /* Example weight, change as needed */
+  font-style: normal;
+  font-variation-settings: "wdth" 100, "YTLC" 500;
+}
+
+#root {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+}
