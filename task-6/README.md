@@ -56,6 +56,6 @@ These components are located in the `components` directory and can be reused acr
 ### Screenshots
 
 **Job Posting Dashboard:**
-/home/abdi/A2SV-frontend-track/task-6/public/assets/description.png
+task-6/public/assets/description.png
 **Job Posting Cards:**
-/home/abdi/A2SV-frontend-track/task-6/public/assets/landing.png
+task-6/public/assets/landing.png
