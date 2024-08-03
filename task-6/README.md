@@ -56,6 +56,6 @@ These components are located in the `components` directory and can be reused acr
 ### Screenshots
 
 **Job Posting Dashboard:**
-<img src="task-6/public/assets/description.png" />
+<img src="https://github.com/Abdidawud/A2SV-frontend-track/blob/main/task-6/public/assets/description.png" />
 **Job Posting Cards:**
 task-6/public/assets/landing.png
